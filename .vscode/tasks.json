@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build TheVixEngineApp",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build", "BUILD",
+                "--config", "Release"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"]
+        }
+    ]
+}

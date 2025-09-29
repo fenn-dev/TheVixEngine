@@ -1,0 +1,10 @@
+^C:\USERS\RASMU\DESKTOP\THEVIXENGINE\BUILD\CMAKEFILES\A951149CA7106288D107B718E91D5364\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/rasmu/Desktop/TheVixEngine -BC:/Users/rasmu/Desktop/TheVixEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/rasmu/Desktop/TheVixEngine/build/TheVixEngineExamples.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

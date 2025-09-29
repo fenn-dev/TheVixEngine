@@ -1,0 +1,3 @@
+C:/Users/rasmu/Desktop/TheVixEngine/build/CMakeFiles/TheVixEngineApp.dir
+C:/Users/rasmu/Desktop/TheVixEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/rasmu/Desktop/TheVixEngine/build/CMakeFiles/ZERO_CHECK.dir
