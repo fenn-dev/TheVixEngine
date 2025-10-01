@@ -7,6 +7,12 @@
     <ClCompile Include="C:\Users\rasmu\Desktop\TheVixEngine\Examples\application\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\rasmu\Desktop\TheVixEngine\TheVixEngine\Handlers\WindowHandler\WindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rasmu\Desktop\TheVixEngine\TheVixEngine\Handlers\WindowHandler\GLFW\GLFWImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\rasmu\Desktop\TheVixEngine\CMakeLists.txt" />

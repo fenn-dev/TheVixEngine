@@ -20,12 +20,21 @@ find_package(OpenGL REQUIRED)
 set(SOURCES
     TheVixEngine/thevixengine.cpp
     Examples/application/main.cpp
+    TheVixEngine/Handlers/WindowHandler/WindowHandler.cpp
+    TheVixEngine/Handlers/WindowHandler/GLFW/GLFWImplementation.cpp
 )
 
 # Executable
 add_executable(TheVixEngineApp ${SOURCES})
 
-# Link libraries
 target_include_directories(TheVixEngineApp PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/TheVixEngine
+    ${CMAKE_CURRENT_SOURCE_DIR} # <-- Add this line
+    ${CMAKE_CURRENT_SOURCE_DIR}/TheVixEngine/Handlers/WindowHandler
+)
+
+# Link libraries
+target_link_libraries(TheVixEngineApp PRIVATE
+    glfw
+    glad::glad
+    OpenGL::GL
 )

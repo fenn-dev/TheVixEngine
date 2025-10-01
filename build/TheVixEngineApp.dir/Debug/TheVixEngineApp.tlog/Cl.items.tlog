@@ -1,2 +1,4 @@
 C:\Users\rasmu\Desktop\TheVixEngine\TheVixEngine\thevixengine.cpp;C:\Users\rasmu\Desktop\TheVixEngine\build\TheVixEngineApp.dir\Debug\thevixengine.obj
 C:\Users\rasmu\Desktop\TheVixEngine\Examples\application\main.cpp;C:\Users\rasmu\Desktop\TheVixEngine\build\TheVixEngineApp.dir\Debug\main.obj
+C:\Users\rasmu\Desktop\TheVixEngine\TheVixEngine\Handlers\WindowHandler\WindowHandler.cpp;C:\Users\rasmu\Desktop\TheVixEngine\build\TheVixEngineApp.dir\Debug\WindowHandler.obj
+C:\Users\rasmu\Desktop\TheVixEngine\TheVixEngine\Handlers\WindowHandler\GLFW\GLFWImplementation.cpp;C:\Users\rasmu\Desktop\TheVixEngine\build\TheVixEngineApp.dir\Debug\GLFWImplementation.obj

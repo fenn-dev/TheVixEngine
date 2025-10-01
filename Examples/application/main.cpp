@@ -2,12 +2,15 @@
 
 int main() {
     VIX::TheVIXEngine engine;
-    engine.Initialize();
+    engine.Initialize(VIX::RendererBackend::OpenGL, VIX::WindowBackend::GLFW);
+    engine.CreateWindow(800, 600, "The VIX Engine Example");
 
-    while (true) {
-        engine.Update(0.016f);
+    while (!engine.shouldClose()) {
+        engine.BeginFrame();
+
         engine.Render();
     }
 
-    engine.Shutdown();
+    engine.shutdown();
+    return 0;
 }
